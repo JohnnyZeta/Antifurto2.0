@@ -1,0 +1,56 @@
+site_name: Antifurto 2.0
+theme:
+  name: material
+  language: 'it'
+  logo:
+    icon: 'vpn_key'
+  palette:
+    primary: 'black'
+    accent: 'teal'
+    
+site_author: albyzambo
+site_url: "https://JohnnyZeta.github.io/antifurto2.0/"
+repo_url: "https://github.com/JohnnyZeta/antifurto2.0"
+
+
+nav:
+    - Introduzione: index.md
+    - App Allarme: App_Allarme.md
+
+plugins:
+    - search:
+        lang: it
+    - minify:
+        minify_html: true
+    #- git-revision-date-localized
+
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/JohnnyZeta'
+  search:
+    language: 'it'
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: true
+  - footnotes
+  - toc:
+        permalink: " #"
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
