@@ -22,7 +22,6 @@ plugins:
         lang: it
     - minify:
         minify_html: true
-    #- git-revision-date-localized
 
 extra:
   social:
