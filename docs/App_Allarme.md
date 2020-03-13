@@ -1,6 +1,6 @@
 ## La configurazione in ```apps.yaml```
 
-Grazie alle [caratteristiche di AppDaemon](https://appdaemon.readthedocs.io/en/latest/APPGUIDE.html#passing-arguments-to-apps) ho potuto separare il codice vero e proprio dalla sua configurazione, rendendo l'App in questione sostanzialmente "indipendente" dal sistema dovre verrà eseguita. Gli argomenti passati al codice saranno quindi (da inserire nel mio caso nel file ```apps.yaml```): [^1]
+Grazie alle [caratteristiche di AppDaemon](https://appdaemon.readthedocs.io/en/latest/APPGUIDE.html#passing-arguments-to-apps) ho potuto separare il codice vero e proprio dalla sua configurazione, rendendo l'App in questione sostanzialmente "indipendente" dal sistema dove verrà eseguita. Gli argomenti passati al codice saranno quindi (da inserire nel mio caso nel file ```apps.yaml```): [^1]
 
 ```python3
 Allarme:
